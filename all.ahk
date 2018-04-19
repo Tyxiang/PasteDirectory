@@ -4,9 +4,15 @@ Loop, parse, clipboard, `n, `r
 {
     If FileExist(A_LoopField)
     {
-        SplitPath, A_LoopField, OutFileName, OutDir
-        FileCreateDir, %A_WorkingDir%\%OutFileName%
-        FileCopyDir, %OutDir%\%OutFileName%, %A_WorkingDir%\%OutFileName%, 1
+        msgbox, %A_WorkingDir%
+        ;SplitPath, A_LoopField, OutFileName, OutDir
+        ;FileCreateDir, %A_WorkingDir%\%OutFileName%
+        ; FileCopyDir, %OutDir%\%OutFileName%, %A_WorkingDir%\%OutFileName%, 1
+        Loop, Files, %A_LoopField%\*, DR
+        {
+            MsgBox, %A_LoopFilePath%
+            ;FileCreateDir, %A_LoopFilePath%
+        }
     }
     else
     {
