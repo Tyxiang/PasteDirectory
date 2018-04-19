@@ -1,16 +1,9 @@
-## 用途 Effect
 帮你快速建立目录结构。
 
-## 安装和卸载 Install&Uninstall
-
-### 安装 Install
+## 安装 Install
 1. 下载压缩包；
 1. 将压缩包解压到运行目录；
 1. 执行Install.exe;
-
-### 卸载 Uninstall
-1. 运行Uninstall；
-1. 删除安装目录；
 
 ## 使用 Usage
 
@@ -32,3 +25,7 @@
 1. 复制文本内容;
 1. 在目标位置的空白处点右键，选择“Paste Directory for All Level”;
 1. 文本内容所描述的目录结构会被创建到目标位置;
+
+## 卸载 Uninstall
+1. 运行Uninstall；
+1. 删除安装目录；
