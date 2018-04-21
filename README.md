@@ -1,3 +1,4 @@
+# PasteDirectory
 帮你快速建立目录结构。
 
 ## 安装 Install
