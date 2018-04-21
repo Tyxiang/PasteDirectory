@@ -1,36 +1,39 @@
 # PasteDirectory
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)  
-帮你快速建立目录结构。
+Help you create a directory structure quickly.
 
-## 安装 Install
-1. 下载压缩包；
-1. 将压缩包解压到运行目录；
-1. 执行Install.exe;
+## Install
+1. Download zip package from Releases;
+1. Decompress the zip package;
+1. Run Install.exe;
 
-## 使用 Usage
+## Usage
 
-__复制单层目录结构__
-1. 选择要复制的目录，正常复制;
-1. 在目标位置的空白处点右键，选择“Paste Directory for One Level”;
-1. 单层目录会被复制到目标位置，目录中的其他目录和文件不会被复制;
+__Copy directory structure for single level__
+1. Copy source directory;
+1. Right click on the blank of the target location;
+1. Select "Paste Directory for One Level";
+1. Single-level directories will be copied to the target location, and other directories and all files will not be copied;
 
-__复制所有层次目录结构__
-1. 选择要复制的目录，正常复制;
-1. 在目标位置的空白处点右键，选择“Paste Directory for All Level”;
-1. 所有层次的目录都会被复制到目标位置，目录中的文件不会被复制;
+__Copy directory structure for all level__
+1. Copy source directory;
+1. Right click on the blank of the target location;
+1. Select “Paste Directory for All Level”;
+1. All levels of the directory will be copied to the target location, the files in the directory will not be copied;
 
-__按目录图创建目录结构__
-1. 用文本文件描述一个目录结构，例如：
+__Create a directory structure by directory map__
+1. Design a directory structure with a text file, for example:
     ```
     A\a  
     B\b\1  
     C  
     ```
-1. 复制文本内容;
-1. 在目标位置的空白处点右键，选择“Paste Directory for All Level”;
-1. 文本内容所描述的目录结构会被创建到目标位置;
+1. Copy the text content;
+1. Right click on the blank of the target location;
+1. Select “Paste Directory for All Level”;
+1. The directory structure designed by the text content will be created to the target location;
 
-## 卸载 Uninstall
-1. 运行Uninstall；
-1. 删除安装目录；
+## Uninstall
+1. Run Uninstall.exe；
+1. Delete the directory and files;
