@@ -24,16 +24,16 @@ __Copy directory structure for all level__
 1. All levels of the directory will be copied to the target location, the files in the directory will not be copied;
 
 __Create a directory structure by directory map__
-1. Design a directory structure with a text file, for example:
+1. Design a directory structure with text, for example:
     ```
     A\a  
     B\b\1  
     C  
     ```
-1. Copy the text content;
+1. Copy the text;
 1. Right click on the blank of the target location;
 1. Select “Paste Directory for All Level”;
-1. The directory structure designed by the text content will be created to the target location;
+1. The directory structure designed by the text will be created to the target location;
 
 ## Uninstall
 1. Run Uninstall.exe；
