@@ -11,21 +11,19 @@ Help you create a directory structure quickly.
 1. Decompress the zip package;
 1. Run Install.exe;
 
-## Usage
-
-### Copy directory structure for single level ###
+## Copy directory structure for single level ###
 1. Copy source directory;
 1. Right click on the blank of the target location;
 1. Select "Paste Directory for One Level";
 1. Single-level directories will be copied to the target location, and other directories and all files will not be copied;
 
-### Copy directory structure for all level ###
+## Copy directory structure for all level ###
 1. Copy source directory;
 1. Right click on the blank of the target location;
 1. Select “Paste Directory for All Level”;
 1. All levels of the directory will be copied to the target location, the files in the directory will not be copied;
 
-### Create a directory structure by directory map ###
+## Create a directory structure by directory map ###
 1. Design a directory structure with text, for example:
     ```
     A\a  
