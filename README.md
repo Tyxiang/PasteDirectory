@@ -4,6 +4,8 @@
 
 Help you create a directory structure quickly.
 
+![screenshot](https://github.com/Tyxiang/PasteDirectory/blob/master/screenshot.png) 
+
 ## Install
 1. Download zip package from Releases;
 1. Decompress the zip package;
