@@ -4,7 +4,7 @@
 
 Help you create a directory structure quickly.
 
-![screenshot](https://github.com/Tyxiang/PasteDirectory/blob/master/screenshot.png) 
+![screenshot](https://raw.githubusercontent.com/Tyxiang/PasteDirectory/blob/master/screenshot.png) 
 
 ## Install
 1. Download zip package from Releases;
