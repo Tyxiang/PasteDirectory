@@ -2,16 +2,16 @@
 
 Loop, parse, clipboard, `n, `r
 {
-    If FileExist(A_LoopField)
+    If InStr(FileExist(A_LoopField), "D")
     {
-        msgbox, %A_WorkingDir%
-        ;SplitPath, A_LoopField, OutFileName, OutDir
-        ;FileCreateDir, %A_WorkingDir%\%OutFileName%
-        ; FileCopyDir, %OutDir%\%OutFileName%, %A_WorkingDir%\%OutFileName%, 1
+        SplitPath, A_LoopField, OutFileName, OutDir
+        FileCreateDir, %A_WorkingDir%\%OutFileName%
+        ;FileAppend, %A_WorkingDir%\%OutFileName% `n, log.txt
         Loop, Files, %A_LoopField%\*, DR
         {
-            MsgBox, %A_LoopFilePath%
-            ;FileCreateDir, %A_LoopFilePath%
+             StringReplace, NewDir, A_LoopFilePath, %OutDir%,
+             FileCreateDir, %A_WorkingDir%%NewDir%
+             ;FileAppend, %A_WorkingDir%%NewDir% `n, log.txt
         }
     }
     else
