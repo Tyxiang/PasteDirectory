@@ -7,7 +7,7 @@ Help you create a directory structure quickly.
 ![screenshot](https://raw.githubusercontent.com/Tyxiang/PasteDirectory/master/screenshot.png) 
 
 ## Install
-1. Download zip package from [Releases](https://github.com/Tyxiang/PasteDirectory/releases) or [Here](http://forw.cc/download/PasteDirectory.V1.01.zip);
+1. Download zip package from [Releases](https://github.com/Tyxiang/PasteDirectory/releases) or [Here](http://forw.cc/download/PasteDirectory.zip);
 1. Decompress the zip package;
 1. Run Install.exe;
 
