@@ -1,8 +1,0 @@
-#Include RunAsAdmin.ahk
-RunAsAdmin()
-
-RegDelete, HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PasteDirectory
-RegDelete, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PasteDirectoryAll
-RegDelete, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PasteDirectoryOne
-
-MsgBox, 64, PasteDirectory, Uninstallion Complete!
