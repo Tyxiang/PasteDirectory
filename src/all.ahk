@@ -1,6 +1,6 @@
 Loop, parse, clipboard, `n, `r
 {
-    If InStr(FileExist(A_LoopField), "D")
+    If InStr(FileExist(A_LoopField), "D") ;如果存在，且是个目录
     {
         SplitPath, A_LoopField, OutFileName, OutDir
         FileCreateDir, %A_WorkingDir%\%OutFileName%
